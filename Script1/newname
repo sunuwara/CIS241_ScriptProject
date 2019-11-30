@@ -5,7 +5,7 @@ replace=$2
 ext=1
 temp=$replace.$ext
 
-if [ $# > 2 ]; then
+if [ $# -gt 2 ]; then
     echo "Too many arguments!"
     exit
 fi
