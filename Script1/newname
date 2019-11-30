@@ -1,1 +1,32 @@
-ls -a
+# Aron Sunuwar & Om Tamang
+#!/bin/bash
+
+replace=$2
+ext=1
+temp=$replace.$ext
+
+if [ $# > 2 ]; then
+    echo "Too many arguments!"
+    exit
+fi
+
+if  [ -f $1 ]; then
+	if [ -f $2 ];	then
+		echo "$2 already exists"
+		
+		while [ -f $temp ]; do
+		  echo "Increase ext"
+			ext=$(($ext+1))
+			temp=$replace.$ext
+		done
+		
+		echo "Renamed $1 with $temp"
+		mv $1 $temp
+	else
+		echo "Renamed $1 with $2"
+		mv $1 $2		
+	fi
+else
+	echo "File to rename does not exist!"
+	exit
+fi
