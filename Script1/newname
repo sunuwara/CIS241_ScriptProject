@@ -1,5 +1,10 @@
-# Aron Sunuwar & Om Tamang
-#!/bin/bash
+# ============================================================
+# Script:   newname
+# Author:   Aron Sunuwar & Om Tamang
+#
+# Description:  Renames a file (argument 1) with a new desired
+#               name (argument 2)
+# ============================================================
 
 replace=$2
 ext=1
