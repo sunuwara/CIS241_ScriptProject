@@ -1,0 +1,48 @@
+Script started on Mon Dec  2 13:02:09 2019
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac cis241_scriptproject % [K[?2004hccdc  llsl  ccd script1[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004httouch a.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004hbbase h newname a.txt b.txt[?2004l
+Renamed a.txt with b.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004hbash newname a.txt b.txt[24Dtouch a.txt             [13D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004htouch a.txt[11Dbash newname a.txt b.txt[?2004l
+b.txt already exists
+Renamed a.txt with b.txt.1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004hbash newname a.txt b.txt[24Dtouch a.txt             [13D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004htouch a.txt[11Dbash newname a.txt b.txt[?2004l
+b.txt already exists
+Increase ext
+Renamed a.txt with b.txt.2
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004hbash newname a.txt b.txt[24Dtouch a.txt             [13D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004htouch a.txt[11Dbash newname a.txt b.txt[?2004l
+b.txt already exists
+Increase ext
+Increase ext
+Renamed a.txt with b.txt.3
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004hbash newname a.txt b.txt[24Dtouch a.txt             [13D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004htouch a.txt[11Dbash newname a.txt b.txt[?2004l
+b.txt already exists
+Increase ext
+Increase ext
+Increase ext
+Renamed a.txt with b.txt.4
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script1 % [K[?2004hccd c  ccd script       ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac cis241_scriptproject % [K[?2004hccd c script2[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script2 % [K[?2004hlls -R[?2004l
+autograde	cis241.zip	data		grading		rawdata.txt
+
+./data:
+
+./grading:
+bentleyj	grannanm	shomskyj
+
+./grading/bentleyj:
+LetFreq.txt	cipher.c	makefile	memo.txt
+
+./grading/grannanm:
+LetFreq.txt	cipher.c	makefile	memo.txt
+
+./grading/shomskyj:
+LetFreq.txt	cipher.c	makefile	memo.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jwafalay@KMac script2 % [K[?2004heexit[?2004l
+
+Script done on Mon Dec  2 13:04:10 2019
