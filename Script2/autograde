@@ -1,0 +1,56 @@
+# Aron Sunuwar & Om Tamang
+#!/bin/bash
+
+# Prompt for zip file name
+#echo -n "Enter the name of zip file: "
+#read name
+
+#zipfile=$name.zip
+
+# Check if zip file exists, if it does
+# then create data directory and extract
+# files there
+#if [ -f $zipfile ]; then
+#	if [ -d data ]; then
+#	    unzip -d data/ $zipfile
+#	else
+#	    mkdir data
+#	    unzip -d data/ $zipfile
+#    fi
+
+#    ls data > rawdata.txt
+#else
+#	echo "$zipfile not found!"
+#	exit
+#fi
+
+# Create grading directory
+if ! [ -d grading ]; then
+    mkdir grading
+fi
+
+# Create subdirectory for each student and
+# move their files from data directory to
+# that students directory with prefix removed
+while read line; do
+    name=$(echo $line | cut -d_ -f2)
+
+    if [ -d grading/$name ]; then
+        echo $name here
+
+        file=$(echo $line | cut -d_ -f5)
+        echo $file
+
+        if [ $file='' ]; then
+            file="memo.txt"
+        fi
+
+        echo $file
+
+        mv data/$line grading/$name/$file
+    else
+        mkdir grading/$name
+        echo $name created
+    fi
+done < rawdata.txt
+
